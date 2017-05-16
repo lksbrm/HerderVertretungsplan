@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="50dp"
+    android:background="@color/colorAccent2"
+    >
+
+
+    <TextView
+
+        android:layout_width="70dp"
+        android:layout_height="55dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="5/6"
+        android:id="@+id/lesson"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="44dp"
+        android:textColor="@color/colorBlack"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="EK"
+        android:textSize="25dp"
+        android:id="@+id/subject"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Gj"
+        android:id="@+id/teacher"
+        android:layout_alignBottom="@+id/subject"
+        android:layout_alignTop="@+id/subject"
+        android:layout_toLeftOf="@+id/room"
+        android:layout_toRightOf="@+id/subject"
+        android:layout_toEndOf="@+id/subject" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:textColor="@color/colorBlack"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="B103"
+        android:id="@+id/room"
+        android:layout_alignTop="@+id/teacher"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Entfall"
+        android:id="@+id/textView3"
+        android:layout_alignTop="@+id/teacher"
+        android:layout_toRightOf="@+id/lesson"
+        android:layout_toEndOf="@+id/lesson" />
+
+</RelativeLayout>
