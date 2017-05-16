@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState)
     {
         //TEMP
-        elements.add(0, new SubstElement("9c", "1/2", "Gj", "E002", "E", "", "Entfall"));
+        elements.add(new SubstElement("9c", "1/2", "Gj", "E002", "E", "", "Entfall"));
         //TEMP
 
         super.onCreate(savedInstanceState);
