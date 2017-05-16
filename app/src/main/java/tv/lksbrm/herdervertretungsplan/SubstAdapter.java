@@ -42,9 +42,9 @@ public class SubstAdapter extends RecyclerView.Adapter<SubstAdapter.ViewHolderCl
     @Override
     public ViewHolderClass onCreateViewHolder(ViewGroup parent, int viewType)
     {
-        View itemView1 = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_layout, null);
+        View itemView1 = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_layout, parent, false);
 
-        return null;
+        return new ViewHolderClass(itemView1);
     }
 
     @Override
